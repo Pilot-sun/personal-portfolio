@@ -3,4 +3,5 @@ const fact = document.querySelector("#fun-fact")
 
 button.addEventListener("click", function() {
     fact.hidden = !fact.hidden;
+    button.setAttribute("aria-expanded", String(!fact.hidden));
 });
