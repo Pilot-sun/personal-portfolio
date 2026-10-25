@@ -1049,3 +1049,32 @@ p {
         transition-duration: 0.01ms !important;
     }
 }
+body {
+   font-family: Arial, sans-serif;
+   color: #243047;
+   background-color: #f3f6fb;
+   margin: 0; 
+}
+
+main {
+    max-width: 720px;
+    margin: 40px auto;
+    padding: 0 24px;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #dce3ef;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(36, 48, 71, 0.08);
+    padding: 24px;
+    margin-bottom: 24px;
+}
+
+h1,h2{
+    color: #72175d;
+}
+
+img {
+    max-width: 100%;
+}
